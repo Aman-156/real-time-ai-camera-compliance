@@ -1,0 +1,32 @@
+# Python environment & cache
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+
+# Sensitive data, datasets, and face databases
+face_database/
+face_dataset_split/
+id-card-detecter-8/
+uniform--detection-2/
+uniform--detection-5/
+
+# Runtime outputs, logs, and exports
+runs/
+runs - Copy/
+output/
+violations/
+video/
+violations.csv
+PyWhatKit_DB.txt
+test_image.jpg
+my_image.jpg
+
+# Heavy model files downloaded automatically or trained locally
+yolov8n.pt
+yolov8n-cls.pt
+.deepface/
+
+# Personal docs
+*.pdf
